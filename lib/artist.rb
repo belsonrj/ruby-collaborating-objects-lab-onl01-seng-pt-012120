@@ -6,7 +6,11 @@ class Artist
   def initialize(name)
     @name = name
     @songs= []
+<<<<<<< HEAD
     @@all << self
+=======
+    @@all << save
+>>>>>>> 5503f860358f4b1a62344a71df353175878bed84
   end
 
   def add_song(song)
@@ -19,11 +23,14 @@ class Artist
     @songs
   end
 
+<<<<<<< HEAD
   def save
     @@all << self
     self
   end
 
+=======
+>>>>>>> 5503f860358f4b1a62344a71df353175878bed84
   def self.all
     @@all
   end
